@@ -168,9 +168,25 @@ Tools & Technologies
 
 Project Structure
 
-Customer-Shopping-Behavior-Analysis/ │ 
-├── data/ │ └── shopping_data.csv │ 
-├── notebooks/ │ └── customer_analysis.ipynb │ 
-├── sql/ │ └── business_queries.sql │ 
-├── powerbi/ │ └── customer_behavior_dashboard.pbix │ ├── images/ 
-│ └── dashboard_screenshots │ └── README.md
+Customer-Shopping-Behavior-Analysis/
+│
+├── data/
+│   └── customer_shopping_behavior.csv
+│
+├── notebooks/
+│   └── customer_shopping_behaviour.ipynb
+│
+├── sql/
+│   ├── revenue_analysis.sql
+│   ├── customer_segmentation.sql
+│   ├── top_products.sql
+│   └── subscription_analysis.sql
+│
+├── powerbi/
+│   └── Customer_behaviour_analysis.pbix
+│
+├── dashboard_images/
+│   ├── dashboard_1.png
+│   └── dashboard_2.png
+│
+└── README.md
